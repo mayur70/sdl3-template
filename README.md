@@ -9,8 +9,8 @@ Are you a complete beginner? If so, read [this](https://github.com/Ravbug/sdl3-s
 Otherwise, install CMake and your favorite compiler, and follow the commands below:
 ```sh
 # You need to clone with submodules, otherwise SDL will not download.
-git clone https://github.com/Ravbug/sdl3-sample --depth=1 --recurse-submodules
-cd sdl3-sample
+git clone https://github.com/mayur70/sdl3-template.git --depth=1 --recurse-submodules
+cd sdl3-template
 cmake -S . -B build
 ```
 You can also use an init script inside [`config/`](config/). Then open the IDE project inside `build/` 
